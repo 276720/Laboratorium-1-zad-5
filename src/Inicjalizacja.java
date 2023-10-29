@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Inicjalizacja {
     private static void printCollection(ArrayList<Osoba> list) { //Metoda służąca do wyświetlania
-        for (Osoba element : list) {                             //zawartości zbioru książek (HashSet<Book>) na konsoli.
+        for (Osoba element : list) {                             //zawartości zbioru osób na konsoli.
             System.out.println(element.toString());
         }
     }
